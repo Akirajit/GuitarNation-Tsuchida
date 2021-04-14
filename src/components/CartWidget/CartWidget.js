@@ -3,11 +3,7 @@ import { FiShoppingCart } from "react-icons/fi";
 import "./CartWidget.css";
 
 function CartWidget() {
-  return (
-    <div>
-      <FiShoppingCart id="FiShoppingCart" size="1.5em" color="#dadada" />
-    </div>
-  );
+  return <FiShoppingCart id="FiShoppingCart" size="1.5em" color="#dadada" />;
 }
 
 export default CartWidget;
