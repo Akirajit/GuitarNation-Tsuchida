@@ -1,20 +1,16 @@
 import React from "react";
 import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
-import Navbar from "./components/Navbar";
+import Navbar from "./components/Navbar/Navbar";
+import ItemListContainer from "./Containers/ItemListContainer";
 
 function App() {
   return (
-    <div className="App">
+    <div>
       <Navbar />
-      <h3 className="title">
-        Welcome to <span className="brand-text">GuitarNation</span> , this site
-        is currently under contruction.
-      </h3>
-      <img
-        id="main-image"
-        src="https://sleekbundle.com/wp-content/uploads/2020/01/18-Site-under-construction-1.png"
-        alt="site-under-construction"
+      <ItemListContainer
+        greeting="Welcome! This
+          site is currently under contruction. Be prepared for more coming soon."
       />
     </div>
   );

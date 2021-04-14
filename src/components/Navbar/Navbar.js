@@ -1,5 +1,6 @@
 import React from "react";
-import { Nav, Navbar, NavDropdown, Button } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
+import CartWidgeet from "../CartWidget/CartWidget";
 
 function Menu() {
   return (
@@ -17,7 +18,9 @@ function Menu() {
             <Nav.Link href="#pricing">Effects</Nav.Link>
           </Nav>
           <Nav>
-            <Button variant="danger">Contact Us</Button>
+            <a href="#">
+              <CartWidgeet />
+            </a>
           </Nav>
         </Navbar.Collapse>
       </div>
