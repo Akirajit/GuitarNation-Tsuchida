@@ -10,7 +10,7 @@ function App() {
       <Navbar />
       <ItemListContainer
         greeting="Welcome! This
-          site is currently under contruction. Be prepared for more coming soon."
+          site is still under contruction. 🚧"
       />
     </div>
   );

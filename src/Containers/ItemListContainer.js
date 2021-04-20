@@ -1,23 +1,16 @@
-import React, { Component } from "react";
+import React from "react";
 import "./ItemListContainer.css";
+import ItemCount from "../components/ItemCount/ItemCount";
 
-export class ItemListContainer extends Component {
-  constructor(props) {
-    super(props);
-  }
+export default function ItemListContainer({ greeting }) {
+  const onAdd = (counter) => {
+    alert(`${counter} items have been added to the cart.`);
+  };
 
-  render() {
-    return (
-      <div>
-        <h3 className="title">{this.props.greeting}</h3>
-        <img
-          id="main-image"
-          src="https://sleekbundle.com/wp-content/uploads/2020/01/18-Site-under-construction-1.png"
-          alt="site-under-construction"
-        />
-      </div>
-    );
-  }
+  return (
+    <div>
+      <h3 className="title">{greeting}</h3>
+      <ItemCount initial={1} stock={5} onAdd={onAdd} />
+    </div>
+  );
 }
-
-export default ItemListContainer;
