@@ -1,8 +1,3 @@
-.itemCountContainer {
-  display: flex;
-  flex-direction: row;
-}
-
 #counterContainer {
   display: flex;
   flex-direction: row;
