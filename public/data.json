@@ -4,7 +4,7 @@
     "title": "Fender Stratocaster",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-    "pictureUrl":"../../assets/images/01-fender.jpg",
+    "pictureUrl":"images/01-fender.jpg",
     "stock":10
     },
     {
@@ -12,7 +12,7 @@
     "title": "Gibson Les Paul",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-    "pictureUrl":"b",
+    "pictureUrl":"images/02-gibson.jpg",
     "stock":7
 
     },
@@ -21,7 +21,7 @@
     "title": "Ibanez",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-    "pictureUrl":"c",
+    "pictureUrl":"images/03-gibson-black.jpg",
     "stock":3
     },
     {
@@ -29,7 +29,7 @@
     "title": "Gibson Spetial",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-    "pictureUrl":"d",
+    "pictureUrl":"images/04-ibanez-af75tdg-iv.jpg",
     "stock":1
     },
     {
@@ -37,7 +37,7 @@
     "title": "Fender Telecaster",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-    "pictureUrl":"e",
+    "pictureUrl":"images/05-epiphone-sg.jpg",
     "stock":5
     },
     {
@@ -45,7 +45,7 @@
     "title": "Cort",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "quia et suscipit\nsuscipit recusandae consequuntur expedita et cum\nreprehenderit molestiae ut ut quas totam\nnostrum rerum est autem sunt rem eveniet architecto",
-    "pictureUrl":"f",
+    "pictureUrl":"images/06-ibanez1.jpg",
     "stock":7
     }
 ]

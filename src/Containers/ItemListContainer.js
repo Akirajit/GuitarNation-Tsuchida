@@ -6,10 +6,6 @@ import ItemList from "../components/ItemList/ItemList";
 export default function ItemListContainer({ greeting }) {
   const [items, setItems] = useState([]);
 
-  const onAdd = (counter) => {
-    alert(`${counter} items have been added to the cart.`);
-  };
-
   useEffect(() => {
     setTimeout(() => {
       fetch("data.json", {
