@@ -13,7 +13,7 @@ function App() {
         greeting="Welcome! This
           site is still under contruction. 🚧"
       />
-      <ItemDetailContainer itemId={2} />
+      <ItemDetailContainer itemId={5} />
     </div>
   );
 }
