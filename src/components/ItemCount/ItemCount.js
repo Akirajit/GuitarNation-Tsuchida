@@ -1,7 +1,6 @@
 import React, { useState } from "react";
 import { Button, Card, Container } from "react-bootstrap";
 import "./ItemCount.css";
-import fender from "../../assets/images/01-fender.jpg";
 
 function ItemCount({ initial, stock, onAdd }) {
   const [counter, setCounter] = useState(initial);

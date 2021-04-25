@@ -3,6 +3,7 @@ import "./App.css";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Navbar from "./components/Navbar/Navbar";
 import ItemListContainer from "./Containers/ItemListContainer";
+import ItemDetailContainer from "./Containers/ItemDetailContainer";
 
 function App() {
   return (
@@ -12,6 +13,7 @@ function App() {
         greeting="Welcome! This
           site is still under contruction. 🚧"
       />
+      <ItemDetailContainer itemId={2} />
     </div>
   );
 }

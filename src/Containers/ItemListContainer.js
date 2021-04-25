@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import "./ItemListContainer.css";
-import ItemCount from "../components/ItemCount/ItemCount";
 import ItemList from "../components/ItemList/ItemList";
 
 export default function ItemListContainer({ greeting }) {
@@ -23,7 +22,6 @@ export default function ItemListContainer({ greeting }) {
     <div>
       <h3 className="title">{greeting}</h3>
       <ItemList itemsListProp={items} />
-      {/* <ItemCount initial={1} stock={5} onAdd={onAdd} /> */}
     </div>
   );
 }
