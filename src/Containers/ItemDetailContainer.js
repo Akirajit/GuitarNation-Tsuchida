@@ -3,8 +3,11 @@ import "./ItemDetailContainer.css";
 import ItemDetail from "../components/ItemDetail/ItemDetail";
 
 function ItemDetailContainer({ itemId }) {
-  const [itemsList, setItemsList] = useState([]);
+  const [item, setItem] = useState([]);
 
+  const isItemId = (item) => {
+    return item.id == itemId;
+  };
   useEffect(() => {
     setTimeout(() => {
       fetch("data.json", {
@@ -14,11 +17,11 @@ function ItemDetailContainer({ itemId }) {
         },
       })
         .then((response) => response.json())
-        .then((data) => setItemsList(data));
+        .then((data) => setItem(data.find(isItemId)));
     }, 2000);
   }, []);
 
-  return <div>{<ItemDetail itemsList={itemsList} itemId={itemId} />}</div>;
+  return <div>{<ItemDetail item={item} />}</div>;
 }
 
 export default ItemDetailContainer;
