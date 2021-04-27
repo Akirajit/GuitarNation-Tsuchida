@@ -2,7 +2,7 @@ import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Item from "../Item/Item";
 
-function ItemList({ itemsListProp }) {
+function ItemsList({ itemsListProp }) {
   return (
     <Container className="itemContainer">
       <Row>
@@ -16,4 +16,4 @@ function ItemList({ itemsListProp }) {
   );
 }
 
-export default ItemList;
+export default ItemsList;

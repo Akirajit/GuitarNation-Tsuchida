@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import "./ItemDetailContainer.css";
-import ItemDetail from "../components/ItemDetail/ItemDetail";
+import ItemDetail from "../../components/ItemDetail/ItemDetail";
 
 function ItemDetailContainer({ itemId }) {
   const [item, setItem] = useState([]);

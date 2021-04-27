@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
-import "./ItemListContainer.css";
-import ItemList from "../components/ItemList/ItemList";
+import "./ItemsListContainer.css";
+import ItemsList from "../../components/ItemsList/ItemsList";
 
-export default function ItemListContainer({ greeting }) {
+export default function ItemsListContainer({ greeting }) {
   const [items, setItems] = useState([]);
 
   useEffect(() => {
@@ -20,8 +20,10 @@ export default function ItemListContainer({ greeting }) {
 
   return (
     <div>
-      <h3 className="title">{greeting}</h3>
-      <ItemList itemsListProp={items} />
+      <h3 id="greeting-message" className="title">
+        {greeting}
+      </h3>
+      <ItemsList itemsListProp={items} />
     </div>
   );
 }
