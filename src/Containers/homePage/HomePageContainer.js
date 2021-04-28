@@ -11,7 +11,7 @@ function HomePageContainer() {
       <Container className="home-container">
         <Row className="justify-content-center">
           <Button
-            onClick={() => history.push("/guitars")}
+            onClick={() => history.push("/all")}
             className="home-container--button"
             size="lg"
           >

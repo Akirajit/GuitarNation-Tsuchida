@@ -10,13 +10,19 @@ function Item({ item }) {
   };
 
   return (
-    <Card style={{ width: "18rem" }}>
-      <Card.Img variant="top" src={item.pictureUrl} />
-      <Card.Body>
-        <Card.Title>{item.title}</Card.Title>
-        <Card.Text>{item.description}</Card.Text>
-        <ItemCount initial={1} stock={item.stock} onAdd={onAdd} />
-      </Card.Body>
+    <Card className="item-container" style={{ width: "18rem" }}>
+      <a href="/guitars">
+        <Card.Img variant="top" src={item.pictureUrl} />
+        <Card.Body>
+          <Card.Title className="item-container--title">
+            {item.title}
+          </Card.Title>
+          <Card.Text className="item-container--price">
+            USD$ {item.price}
+          </Card.Text>
+          {/* <ItemCount initial={1} stock={item.stock} onAdd={onAdd} /> */}
+        </Card.Body>
+      </a>
     </Card>
   );
 }

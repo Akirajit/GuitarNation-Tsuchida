@@ -1,10 +1,11 @@
 import React from "react";
 import { Container, Row, Col } from "react-bootstrap";
 import Item from "../Item/Item";
+import "./ItemsList.css";
 
 function ItemsList({ itemsListProp }) {
   return (
-    <Container className="itemContainer">
+    <Container className="itemslist-container">
       <Row>
         {itemsListProp.map((item) => (
           <Col>
