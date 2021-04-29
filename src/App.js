@@ -13,25 +13,15 @@ function App() {
       <Navbar />
       <Switch>
         <Route exact path="/">
-          <HomePageContainer />
-        </Route>
-        <Route exact path="/all">
           <ItemsListContainer greeting="This is the all section 🚧" />
         </Route>
-        <Route exact path="/guitars">
-          <ItemsListContainer
-            greeting="Welcome! This
-          site is still under contruction. 🚧"
-          />
+
+        <Route exact path="/category/:categoryId">
+          <ItemsListContainer greeting="Welcome! This is a specific category. 🚧" />
         </Route>
-        <Route exact path="/amps">
-          <ItemsListContainer greeting="This is the amps section 🚧" />
-        </Route>
-        <Route exact path="/effects">
-          <ItemsListContainer greeting="This is the effects section. 🚧" />
-        </Route>
-        <Route path="/itemdetail">
-          <ItemDetailContainer itemId={1} />
+
+        <Route exact path="/item/:itemId">
+          <ItemDetailContainer />
         </Route>
       </Switch>
     </Router>

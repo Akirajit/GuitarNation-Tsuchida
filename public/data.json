@@ -1,8 +1,7 @@
 [
     {
     "id": 1,
-    "categoryId":1,
-    "categoryName":"guitars",
+    "categoryId":"guitars",
     "title": "Fender Stratocaster",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "450",
@@ -11,8 +10,7 @@
     },
     {
     "id": 2,
-    "categoryId":1,
-    "categoryName":"guitars",
+    "categoryId":"guitars",
     "title": "Gibson Les Paul",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "500",
@@ -22,8 +20,7 @@
     },
     {
     "id": 3,
-    "categoryId":1,
-    "categoryName":"guitars",
+    "categoryId":"guitars",
     "title": "Ibanez",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "1200",
@@ -32,8 +29,7 @@
     },
     {
     "id": 4,
-    "categoryId":1,
-    "categoryName":"guitars",
+    "categoryId":"guitars",
     "title": "Gibson Spetial",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "750",
@@ -42,8 +38,7 @@
     },
     {
     "id": 5,
-    "categoryId":1,
-    "categoryName":"guitars",
+    "categoryId":"guitars",
     "title": "Fender Telecaster",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "600",
@@ -52,8 +47,7 @@
     },
     {
     "id": 6,
-    "categoryId":1,
-    "categoryName":"guitars",
+    "categoryId":"guitars",
     "title": "Cort",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "800",
@@ -62,8 +56,7 @@
     },
     {
     "id": 7,
-    "categoryId":2,
-    "categoryName":"amps",
+    "categoryId":"amps",
     "title": "Marshall",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "457",
@@ -72,8 +65,7 @@
     },
     {
     "id": 8,
-    "categoryId":2,
-    "categoryName":"amps",
+    "categoryId":"amps",
     "title": "Fender",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "720",
@@ -82,8 +74,7 @@
     },
     {
     "id": 9,
-    "categoryId":2,
-    "categoryName":"amps",
+    "categoryId":"amps",
     "title": "Subzero",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -92,8 +83,7 @@
     },
     {
     "id": 10,
-    "categoryId":2,
-    "categoryName":"amps",
+    "categoryId":"amps",
     "title": "Bugera",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "457",
@@ -102,8 +92,7 @@
     },
     {
     "id": 11,
-    "categoryId":2,
-    "categoryName":"amps",
+    "categoryId":"amps",
     "title": "Laney",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "600",
@@ -112,8 +101,7 @@
     },
     {
     "id": 12,
-    "categoryId":2,
-    "categoryName":"amps",
+    "categoryId":"amps",
     "title": "Orange",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "900",
@@ -122,8 +110,7 @@
     },
     {
     "id": 13,
-    "categoryId":3,
-    "categoryName":"effects",
+    "categoryId":"effects",
     "title": "Boss Turbo Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -132,8 +119,7 @@
     },
     {
     "id": 14,
-    "categoryId":3,
-    "categoryName":"effects",
+    "categoryId":"effects",
     "title": "Boss Turbo Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -141,9 +127,8 @@
     "stock":10
     },
     {
-    "id": 13,
-    "categoryId":3,
-    "categoryName":"effects",
+    "id": 15,
+    "categoryId":"effects",
     "title": "Boss Mega Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -151,9 +136,8 @@
     "stock":10
     },
     {
-    "id": 13,
-    "categoryId":3,
-    "categoryName":"effects",
+    "id": 16,
+    "categoryId":"effects",
     "title": "MXR 78 Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -161,9 +145,8 @@
     "stock":10
     },
     {
-    "id": 13,
-    "categoryId":3,
-    "categoryName":"effects",
+    "id": 17,
+    "categoryId":"effects",
     "title": "Blackstar Dual",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -171,9 +154,8 @@
     "stock":10
     },
     {
-    "id": 13,
-    "categoryId":3,
-    "categoryName":"effects",
+    "id": 18,
+    "categoryId":"effects",
     "title": "Ibanez Analog Delay",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -181,9 +163,8 @@
     "stock":10
     },
     {
-    "id": 13,
-    "categoryId":3,
-    "categoryName":"effects",
+    "id": 19,
+    "categoryId":"effects",
     "title": "Fender The Pelt",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -191,9 +172,8 @@
     "stock":10
     },
     {
-    "id": 13,
-    "categoryId":3,
-    "categoryName":"effects",
+    "id": 20,
+    "categoryId":"effects",
     "title": "Ibanez Super Metal Mini",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
@@ -201,9 +181,8 @@
     "stock":10
     },
     {
-    "id": 14,
-    "categoryId":3,
-    "categoryName":"effects",
+    "id": 21,
+    "categoryId":"effects",
      "title": "Electro-Harmonix Key 9",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",

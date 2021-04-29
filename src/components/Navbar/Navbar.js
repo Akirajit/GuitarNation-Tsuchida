@@ -13,15 +13,9 @@ function Menu() {
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="mr-auto">
-            <Nav.Link href="/all">View All</Nav.Link>
-            <NavDropdown title="By cattegory" id="collasible-nav-dropdown">
-              <NavDropdown.Item href="/guitars">Guitars</NavDropdown.Item>
-              <NavDropdown.Item href="/amps">Amps</NavDropdown.Item>
-              <NavDropdown.Item href="/effects">Effects</NavDropdown.Item>
-            </NavDropdown>
-            {/* <Nav.Link href="/guitars">Guitars</Nav.Link>
-            <Nav.Link href="/amps">Amps</Nav.Link>
-            <Nav.Link href="/effects">Effects</Nav.Link> */}
+            <Nav.Link href="/category/guitars">Guitars</Nav.Link>
+            <Nav.Link href="/category/amps">Amps</Nav.Link>
+            <Nav.Link href="/category/effects">EffectS</Nav.Link>
           </Nav>
           <Nav>
             <a href="#">

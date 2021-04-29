@@ -1,5 +1,6 @@
 import React from "react";
-import { Button, Card, Container, Row, Col } from "react-bootstrap";
+import { Card } from "react-bootstrap";
+import { Link } from "react-router-dom";
 
 import ItemCount from "../ItemCount/ItemCount";
 import "./item.css";
@@ -11,7 +12,7 @@ function Item({ item }) {
 
   return (
     <Card className="item-container" style={{ width: "18rem" }}>
-      <a href="/guitars">
+      <Link to={`item/${item.id}`}>
         <Card.Img variant="top" src={item.pictureUrl} />
         <Card.Body>
           <Card.Title className="item-container--title">
@@ -22,7 +23,7 @@ function Item({ item }) {
           </Card.Text>
           {/* <ItemCount initial={1} stock={item.stock} onAdd={onAdd} /> */}
         </Card.Body>
-      </a>
+      </Link>
     </Card>
   );
 }
