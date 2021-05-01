@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import "./ItemDetailContainer.css";
 import { useParams } from "react-router-dom";
 import ItemDetail from "../../components/ItemDetail/ItemDetail";
@@ -6,26 +6,28 @@ import ItemDetail from "../../components/ItemDetail/ItemDetail";
 
 function ItemDetailContainer() {
   const { itemId } = useParams();
-  const [item, setItem] = useState([]);
+  // const [item, setItem] = useState([]);
 
-  const isItemId = (item) => {
-    return item.id == itemId;
-  };
+  // const isItemId = (item) => {
+  //   return item.id == itemId;
+  // };
 
   useEffect(() => {
-    setTimeout(() => {
-      fetch("data.json", {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then((data) => setItem(data.find(isItemId)));
-    }, 2000);
+    fetchItems();
   }, []);
 
-  return <ItemDetail item={item} />;
+  const fetchItems = async () => {
+    const data = await fetch("data.json", {
+      headers: {
+        "Content-Type": "application/json",
+        Accept: "application/json",
+      },
+    });
+    const items = await data.json();
+    console.log("hi herlo");
+  };
+
+  return <ItemDetail item={itemId} />;
 }
 
 export default ItemDetailContainer;

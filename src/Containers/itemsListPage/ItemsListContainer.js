@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import "./ItemsListContainer.css";
-// import { useParams } from "react-router-dom";
 import ItemsList from "../../components/ItemsList/ItemsList";
 
 export default function ItemsListContainer({ greeting }) {
-  // const { categoryId } = useParams();
   const [items, setItems] = useState([]);
 
   useEffect(() => {
