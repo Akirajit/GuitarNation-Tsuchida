@@ -15,11 +15,11 @@ function App() {
         <Navbar />
         <Switch>
           <Route exact path="/">
-            <ItemsListContainer greeting="This is the all section 🚧" />
+            <ItemsListContainer greeting="All our products: " />
           </Route>
 
           <Route path="/category/:categoryId">
-            <ItemsListContainer greeting="Welcome! This is a specific category. 🚧" />
+            <ItemsListContainer greeting="Category: " />
           </Route>
 
           <Route path="/item/:itemId">
