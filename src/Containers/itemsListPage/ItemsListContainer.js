@@ -1,27 +1,27 @@
 import React, { useState, useEffect } from "react";
+import { useParams } from "react-router-dom";
 import "./ItemsListContainer.css";
 import ItemsList from "../../components/ItemsList/ItemsList";
 
+const { getProducts } = require("../../services/getProducts");
+
 export default function ItemsListContainer({ greeting }) {
   const [items, setItems] = useState([]);
+  const { categoryId } = useParams();
 
   useEffect(() => {
-    setTimeout(() => {
-      fetch("data.json", {
-        headers: {
-          "Content-Type": "application/json",
-          Accept: "application/json",
-        },
-      })
-        .then((response) => response.json())
-        .then((data) => setItems(data));
-    }, 2000);
+    // console.log(categoryId);
+    getProducts().then((data) => {
+      !categoryId
+        ? setItems(data)
+        : setItems(data.filter((item) => item.categoryId == categoryId));
+    });
   }, []);
 
   return (
     <div>
       <h3 id="greeting-message" className="title">
-        {greeting}
+        {greeting} {categoryId}
       </h3>
       <ItemsList itemsListProp={items} />
     </div>

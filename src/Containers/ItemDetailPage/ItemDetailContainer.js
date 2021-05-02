@@ -1,33 +1,18 @@
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import "./ItemDetailContainer.css";
 import { useParams } from "react-router-dom";
 import ItemDetail from "../../components/ItemDetail/ItemDetail";
-// import { useParams } from "react-router-dom";
+import { getSingleProduct } from "../../services/getSingleProduct";
 
 function ItemDetailContainer() {
   const { itemId } = useParams();
-  // const [item, setItem] = useState([]);
-
-  // const isItemId = (item) => {
-  //   return item.id == itemId;
-  // };
+  const [item, setItem] = useState({});
 
   useEffect(() => {
-    fetchItems();
+    getSingleProduct(itemId).then((item) => setItem(item));
   }, []);
 
-  const fetchItems = async () => {
-    const data = await fetch("data.json", {
-      headers: {
-        "Content-Type": "application/json",
-        Accept: "application/json",
-      },
-    });
-    const items = await data.json();
-    console.log("hi herlo");
-  };
-
-  return <ItemDetail item={itemId} />;
+  return <ItemDetail item={item} />;
 }
 
 export default ItemDetailContainer;

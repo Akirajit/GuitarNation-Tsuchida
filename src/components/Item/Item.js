@@ -12,7 +12,7 @@ function Item({ item }) {
 
   return (
     <Card className="item-container" style={{ width: "18rem" }}>
-      <Link to={`item/${item.id}`}>
+      <Link to={`/item/${item.id}`}>
         <Card.Img variant="top" src={item.pictureUrl} />
         <Card.Body>
           <Card.Title className="item-container--title">

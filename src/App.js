@@ -18,11 +18,11 @@ function App() {
             <ItemsListContainer greeting="This is the all section 🚧" />
           </Route>
 
-          <Route exact path="/category/:categoryId">
+          <Route path="/category/:categoryId">
             <ItemsListContainer greeting="Welcome! This is a specific category. 🚧" />
           </Route>
 
-          <Route exact path="/item/:itemId">
+          <Route path="/item/:itemId">
             <ItemDetailContainer />
           </Route>
         </Switch>

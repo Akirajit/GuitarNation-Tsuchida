@@ -5,7 +5,7 @@
     "title": "Fender Stratocaster",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "450",
-    "pictureUrl":"images/01-fender.jpg",
+    "pictureUrl":"/images/01-fender.jpg",
     "stock":10
     },
     {
@@ -14,7 +14,7 @@
     "title": "Gibson Les Paul",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "500",
-    "pictureUrl":"images/02-gibson.jpg",
+    "pictureUrl":"/images/02-gibson.jpg",
     "stock":7
 
     },
@@ -24,7 +24,7 @@
     "title": "Ibanez",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "1200",
-    "pictureUrl":"images/03-gibson-black.jpg",
+    "pictureUrl":"/images/03-gibson-black.jpg",
     "stock":3
     },
     {
@@ -33,7 +33,7 @@
     "title": "Gibson Spetial",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "750",
-    "pictureUrl":"images/04-ibanez-af75tdg-iv.jpg",
+    "pictureUrl":"/images/04-ibanez-af75tdg-iv.jpg",
     "stock":1
     },
     {
@@ -42,7 +42,7 @@
     "title": "Fender Telecaster",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "600",
-    "pictureUrl":"images/05-epiphone-sg.jpg",
+    "pictureUrl":"/images/05-epiphone-sg.jpg",
     "stock":5
     },
     {
@@ -51,7 +51,7 @@
     "title": "Cort",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "800",
-    "pictureUrl":"images/06-ibanez1.jpg",
+    "pictureUrl":"/images/06-ibanez1.jpg",
     "stock":7
     },
     {
@@ -60,7 +60,7 @@
     "title": "Marshall",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "457",
-    "pictureUrl":"images/amp1.jpg",
+    "pictureUrl":"/images/amp1.jpg",
     "stock":4
     },
     {
@@ -69,7 +69,7 @@
     "title": "Fender",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "720",
-    "pictureUrl":"images/amp2.jpg",
+    "pictureUrl":"/images/amp2.jpg",
     "stock":5
     },
     {
@@ -78,7 +78,7 @@
     "title": "Subzero",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/amp3.jpg",
+    "pictureUrl":"/images/amp3.jpg",
     "stock":10
     },
     {
@@ -87,7 +87,7 @@
     "title": "Bugera",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "457",
-    "pictureUrl":"images/amp4.jpg",
+    "pictureUrl":"/images/amp4.jpg",
     "stock":4
     },
     {
@@ -96,7 +96,7 @@
     "title": "Laney",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "600",
-    "pictureUrl":"images/amp5.jpg",
+    "pictureUrl":"/images/amp5.jpg",
     "stock":4
     },
     {
@@ -105,7 +105,7 @@
     "title": "Orange",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "900",
-    "pictureUrl":"images/amp6.jpg",
+    "pictureUrl":"/images/amp6.jpg",
     "stock":4
     },
     {
@@ -114,7 +114,7 @@
     "title": "Boss Turbo Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/amp1.jpg",
+    "pictureUrl":"/images/amp1.jpg",
     "stock":10
     },
     {
@@ -123,7 +123,7 @@
     "title": "Boss Turbo Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal1.jpg",
+    "pictureUrl":"/images/pedal1.jpg",
     "stock":10
     },
     {
@@ -132,7 +132,7 @@
     "title": "Boss Mega Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal2.jpg",
+    "pictureUrl":"/images/pedal2.jpg",
     "stock":10
     },
     {
@@ -141,7 +141,7 @@
     "title": "MXR 78 Distorsion",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal3.jpg",
+    "pictureUrl":"/images/pedal3.jpg",
     "stock":10
     },
     {
@@ -150,7 +150,7 @@
     "title": "Blackstar Dual",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal4.jpg",
+    "pictureUrl":"/images/pedal4.jpg",
     "stock":10
     },
     {
@@ -159,7 +159,7 @@
     "title": "Ibanez Analog Delay",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal5.jpg",
+    "pictureUrl":"/images/pedal5.jpg",
     "stock":10
     },
     {
@@ -168,7 +168,7 @@
     "title": "Fender The Pelt",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal6.jpg",
+    "pictureUrl":"/images/pedal6.jpg",
     "stock":10
     },
     {
@@ -177,7 +177,7 @@
     "title": "Ibanez Super Metal Mini",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal7.jpg",
+    "pictureUrl":"/images/pedal7.jpg",
     "stock":10
     },
     {
@@ -186,7 +186,7 @@
      "title": "Electro-Harmonix Key 9",
     "description": "sunt aut facere repellat provident occaecati excepturi optio reprehenderit",
     "price": "300",
-    "pictureUrl":"images/pedal8.jpg",
+    "pictureUrl":"/images/pedal8.jpg",
     "stock":10
     }
 ]
