@@ -18,6 +18,15 @@ export default function ItemsListContainer({ greeting }) {
     });
   }, []);
 
+  useEffect(() => {
+    // console.log(categoryId);
+    getProducts().then((data) => {
+      !categoryId
+        ? setItems(data)
+        : setItems(data.filter((item) => item.categoryId == categoryId));
+    });
+  }, [categoryId]);
+
   return (
     <div>
       <h3 id="greeting-message" className="title">

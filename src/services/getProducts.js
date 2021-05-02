@@ -2,7 +2,7 @@ function getProducts() {
   return new Promise((resolve, reject) => {
     setTimeout(() => {
       fetch(
-        "https://raw.githubusercontent.com/Akirajit/GuitarNation-Tsuchida/branch8/public/data.json"
+        "https://raw.githubusercontent.com/Akirajit/GuitarNation-Tsuchida/hotfix/public/data.json"
       )
         .then((response) => response.json())
         .then((data) => resolve(data))
