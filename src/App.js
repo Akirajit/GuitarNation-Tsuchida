@@ -5,6 +5,7 @@ import Navbar from "./components/Navbar/Navbar";
 import HomePageContainer from "./Containers/homePage/HomePageContainer";
 import ItemsListContainer from "./Containers/itemsListPage/ItemsListContainer";
 import ItemDetailContainer from "./Containers/ItemDetailPage/ItemDetailContainer";
+import Cart from "./components/Cart/Cart";
 import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { CartContext } from "./context/CartContext";
 
@@ -16,6 +17,10 @@ function App() {
         <Switch>
           <Route exact path="/">
             <ItemsListContainer greeting="All our products: " />
+          </Route>
+
+          <Route path="/cart">
+            <Cart />
           </Route>
 
           <Route path="/category/:categoryId">
